@@ -9,7 +9,7 @@
 	<body>
 		<script>
 			$(document).ready(function() {
-				$.getJson("http://localhost:8000/auth/token/", {}, function(data) {
+				$.getJSON("http://localhost:8000/auth/token/", {}, function(data) {
 					console.log("Got data: ", data);
 				});
 			});
